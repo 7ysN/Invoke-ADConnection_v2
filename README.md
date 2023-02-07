@@ -1,9 +1,9 @@
 # Test-ADConnection Version 2 !
 
 **This script contains the Microsoft Active Directory Module DLL which is compressed and encoded to a Base64 string.**
-**This script performs a connectivity check against Active Directory LDAP Service.
-The script generate a Users list of the current domain and tries to log in with the given password.
-The script will only display users whose password is correct.
+**This script performs a connectivity check against Active Directory LDAP Service.**
+**The script generate a Users list of the current domain and tries to log in with the given password.**
+**The script will only display users whose password is correct.**
 
 ## Usage:
 `PS C:\Tmp> . .\Test-ADConnection_V2.ps1`
