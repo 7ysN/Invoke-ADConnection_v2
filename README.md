@@ -25,12 +25,25 @@
 
 ![2023-02-07 13_42_54-win10 (win10 clear)  Running  - Oracle VM VirtualBox](https://user-images.githubusercontent.com/62604022/217239660-ebb9c2d7-1ca6-4dbd-8223-1133e7188bab.png)
  
-## Good Luck !
-
 
 ## Further Steps:
-*After findings some users, you can use the following script:*
+### After findings some users, you can use the following script:
+**[Active Directory Map](https://github.com/YuvalSab/Active-Directory-Map/blob/main/ActiveDirectoryMap.ps1)**
 
-[Active Directory Map](https://github.com/YuvalSab/Active-Directory-Map/blob/main/ActiveDirectoryMap.ps1)
+**In this script there is the `UsersMembership` function that helps with checking the user's group membership !**
 
-**In this script [Active Directory Map](https://github.com/YuvalSab/Active-Directory-Map/blob/main/ActiveDirectoryMap.ps1) there is the UsersMembership function that helps with checking the user's group membership ! **
+
+**`UsersMembership` function:**
+
+![2023-02-07 14_36_18-win10 (win10 clear)  Running  - Oracle VM VirtualBox](https://user-images.githubusercontent.com/62604022/217247670-091a78da-35af-4fc8-b9bf-7fef38d0fe52.png)
+
+**Entering a wordlist - in our case `UsersFound.txt`:**
+
+![2023-02-07 14_36_57-win10 (win10 clear)  Running  - Oracle VM VirtualBox](https://user-images.githubusercontent.com/62604022/217247841-1fdf6fda-dbdf-44ed-9a56-a7d49fee1ea2.png)
+
+**The Results:**
+
+![2023-02-07 14_37_44-win10 (win10 clear)  Running  - Oracle VM VirtualBox](https://user-images.githubusercontent.com/62604022/217247966-7fcefa46-2550-4cef-b965-9322e10564c7.png)
+
+
+## Good Luck !
