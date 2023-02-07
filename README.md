@@ -13,7 +13,7 @@
 **When it finishes creating a list of users, the script asks for a password. The script will then attempt to connect to the LDAP service for those users from the list:**
 ![2023-02-07 13_38_43-win10 (win10 clear)  Running  - Oracle VM VirtualBox](https://user-images.githubusercontent.com/62604022/217238210-350eddd1-f77a-41d0-8b1a-5080d716e2ba.png)
 
-*The whole process is automatic except for entering the password.
+*The whole process is automatic except for entering the password.*
 
 **The script counts how many users have been found, and shows it using a metric. This metric shows the running progress:**
 ![2023-02-07 13_39_12-win10 (win10 clear)  Running  - Oracle VM VirtualBox](https://user-images.githubusercontent.com/62604022/217239625-6d90bac3-0e40-402f-94d6-e56456d4c6da.png)
