@@ -28,3 +28,8 @@
 ## Good Luck !
 
 
+## Further Steps:
+*After findings some users, you can use the following script:*
+`[https://github.com/YuvalSab/Active-Directory-Map/blob/main/ActiveDirectoryMap.ps1]`
+
+**In this script [(Active Directory Map)] there is the UsersMembership function that helps with checking the user's group membership ! **
