@@ -16,7 +16,7 @@ Function UsersList {
     Get-ADUser -Filter * -Properties * | ForEach-Object {
         $Users = $_.SamAccountName >> Users.txt;
     }
-    Write-Host -ForegroundColor Green "CHECK THE FILE:  Users.txt `n"
+    Write-Host -ForegroundColor Yellow "Creating a users list:  Users.txt `n"
 } 
 Write-Host -ForegroundColor Green "[+] Active Directory Module Successfully Imported."
 LoadADModule
@@ -45,4 +45,4 @@ foreach ($UserName in cat .\Users.txt){
     $Counter++    
 }
 Write-Host "`n"
-Write-Host -ForegroundColor Yellow "CHECK THE FILE: 'UsersFound.txt'"
+Write-Host -ForegroundColor Yellow "Check The Results: 'UsersFound.txt'"
