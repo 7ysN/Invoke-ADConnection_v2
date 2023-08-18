@@ -30,7 +30,9 @@ Function Test-ADConnection {
         $password)   
     return (New-Object DirectoryServices.DirectoryEntry "",$username,$password).psbase.name -ne $null
 }
-$password = Read-Host 'Enter A Password'
+
+Write-Host -NoNewline -ForegroundColor Yellow "Enter A Password: "
+$password = Read-Host 
 $Counter = 0 
 $total = (Get-Content .\Users.txt).Length
 
